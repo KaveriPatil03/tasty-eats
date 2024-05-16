@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/tasty-eats/static/css/main.f246bc91.css",
-    "main.js": "/tasty-eats/static/js/main.5436f8f0.js",
+    "main.css": "/tasty-eats/static/css/main.b9655bfa.css",
+    "main.js": "/tasty-eats/static/js/main.5ad07dbc.js",
     "static/media/hero-bg.jpg": "/tasty-eats/static/media/hero-bg.ac596bd69d11364d39b2.jpg",
     "index.html": "/tasty-eats/index.html",
-    "main.f246bc91.css.map": "/tasty-eats/static/css/main.f246bc91.css.map",
-    "main.5436f8f0.js.map": "/tasty-eats/static/js/main.5436f8f0.js.map"
+    "main.b9655bfa.css.map": "/tasty-eats/static/css/main.b9655bfa.css.map",
+    "main.5ad07dbc.js.map": "/tasty-eats/static/js/main.5ad07dbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.f246bc91.css",
-    "static/js/main.5436f8f0.js"
+    "static/css/main.b9655bfa.css",
+    "static/js/main.5ad07dbc.js"
   ]
 }
