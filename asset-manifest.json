@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tasty-eats/static/css/main.f246bc91.css",
+    "main.js": "/tasty-eats/static/js/main.551bbee2.js",
+    "static/media/hero-bg.jpg": "/tasty-eats/static/media/hero-bg.ac596bd69d11364d39b2.jpg",
+    "index.html": "/tasty-eats/index.html",
+    "main.f246bc91.css.map": "/tasty-eats/static/css/main.f246bc91.css.map",
+    "main.551bbee2.js.map": "/tasty-eats/static/js/main.551bbee2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f246bc91.css",
+    "static/js/main.551bbee2.js"
+  ]
+}
