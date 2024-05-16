@@ -15,7 +15,7 @@ const Payment = () => {
   return (
     <>
       {!payment ? <Home/> :   <div className="bg-green-600 w-full">
-            <h1 className='text-white text-center text-4xl py-60 md:py-48'>Payment Successful 🤩</h1>
+            <h1 className='text-white text-center text-4xl py-[248px] md:py-48'>Payment Successful 🤩</h1>
         </div>}
     </>
   )

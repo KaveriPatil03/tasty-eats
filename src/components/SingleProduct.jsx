@@ -56,7 +56,7 @@ const SingleProduct = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 p-5 mt-6 gap-16">
           {/* IMAGE */}
           <div className="w-[100%] md:pl-16">
-            <img src={product.image} alt={product.title} className="rounded-xl w-full h-[480px] object-cover"/>
+            <img src={product.image} alt={product.title} className="rounded-xl w-full md:h-[480px] object-cover"/>
           </div>
 
           {/* DESCRIPTION */}

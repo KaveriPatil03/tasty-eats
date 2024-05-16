@@ -27,7 +27,7 @@ const Cart = () => {
   return (
     <>
       {!isLoggedIn ? (
-        <div className="text-center font-semibold text-3xl text-gray-600 py-[211px] md:py-[197px]">
+        <div className="text-center font-semibold text-3xl text-gray-600 py-[248px] md:py-[197px]">
           Please Login to access your cart
         </div>
       ) : (

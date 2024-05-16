@@ -27,23 +27,28 @@ const SignIn = () => {
     }, [formData]);
 
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if(!err){
-        let loggedUser = JSON.parse(localStorage.getItem("form"));
-        if(formData.email === loggedUser.email && formData.password === loggedUser.password){
-            alert("login successful");
-            navigate(`/menu`);
-            window.location.reload(true);
-        }
-        else{
-            alert("Invalid email or password");
-        }
-        localStorage.setItem('isLoggedIn', 'true');
-        setIsLoggedIn(true);
-    }
-
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      const isLoggedIn = localStorage.getItem('isLoggedIn');
+      
+      if (!err) {
+          let loggedUser = JSON.parse(localStorage.getItem("form"));
+          if (loggedUser) {
+              if (formData.email === loggedUser.email && formData.password === loggedUser.password) {
+                  localStorage.setItem('isLoggedIn', 'true');
+                  setIsLoggedIn(true);
+                  alert("Login successful");
+                  navigate(`/menu`);
+                  window.location.reload(true);
+              } else {
+                  alert("Invalid email or password");
+              }
+          } else {
+              alert("Please register");
+          }
+      }
   }
+  
 
   return (
     <>
